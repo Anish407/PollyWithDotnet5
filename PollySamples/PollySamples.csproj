@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs" />
+    <Compile Remove="ProgramPolicyWrap.cs" />
+    <Compile Remove="ProgramSharedPolicyCode.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Program.cs" />
+    <None Include="ProgramPolicyWrap.cs" />
+    <None Include="ProgramSharedPolicyCode.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Polly" Version="6.1.2" />
+  </ItemGroup>
+
+</Project>
