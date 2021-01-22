@@ -38,7 +38,7 @@ namespace RetryWithPolly
 
             //app.UseHttpsRedirection();
             //hello
-            // Hi
+        
            
 
             app.UseRouting();
