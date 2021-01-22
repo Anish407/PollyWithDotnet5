@@ -36,10 +36,7 @@ namespace RetryWithPolly
                 app.UseDeveloperExceptionPage();
             }
 
-            //app.UseHttpsRedirection();
-            //hello
-            // Hi
-           // commit
+          // hello again
 
             app.UseRouting();
 
